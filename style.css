@@ -1,0 +1,66 @@
+body {
+  background-color: #3b434b;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+nav {
+  border-bottom: 1px solid #ffffff50;
+}
+
+.card img {
+  max-height: 120px;
+  width: auto;
+  object-fit: contain;
+}
+
+.img-stroke {
+  filter: drop-shadow(1px 0 0 #ffffff60) drop-shadow(-1px 0 0 #ffffff60)
+    drop-shadow(0 1px 0 #ffffff60) drop-shadow(0 -1px 0 #ffffff60)
+    drop-shadow(1px 1px 0 #ffffff60) drop-shadow(-1px 1px 0 #ffffff60)
+    drop-shadow(1px -1px 0 #ffffff60) drop-shadow(-1px -1px 0 #ffffff60);
+}
+
+.img-stroke:hover {
+  filter: drop-shadow(1px 0 0 #00e676) drop-shadow(-1px 0 0 #00e676)
+    drop-shadow(0 1px 0 #00e676) drop-shadow(0 -1px 0 #00e676)
+    drop-shadow(1px 1px 0 #00e676) drop-shadow(-1px 1px 0 #00e676)
+    drop-shadow(1px -1px 0 #00e676) drop-shadow(-1px -1px 0 #00e676);
+}
+
+.product-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.card .row.g-0 {
+  height: 100%;
+}
+
+.navbar-brand {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.footer-brand {
+  height: 30px;
+  width: auto;
+  object-fit: contain;
+}
+
+@media (min-width: 768px){
+  .card .row.g-0{ height:100%; }
+  .product-media{ height:100%; }
+}
+
+@media (max-width: 767.98px){
+  .card .row.g-0{ height:auto; }
+  .product-media{ height:auto; padding:12px 0; }
+}

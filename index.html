@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <img class="navbar-brand" src="images/logo.png" alt="GolfWorld" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#navbarNav"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="flex-grow-1">
+      <div class="container mt-4" id="products">
+        <h1 class="text-white">Welcome to GolfWorld!</h1>
+
+        <!-- Row 1 -->
+        <div class="row mt-3 align-items-stretch mb-4">
+          <!-- Card 1 -->
+          <div class="col-md-4">
+            <div class="card text-white bg-dark border-secondary h-100">
+              <div class="row g-0 h-100">
+                <div class="col-12 col-md-8 d-flex">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Titleist Golf Balls</h5>
+                    <p class="card-text small">
+                      Designed for maximum flight, these golf balls will give
+                      you the best performance money can buy.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-sm col-md-6 mt-auto"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 product-media">
+                  <img
+                    src="images/golfball.png"
+                    class="img-fluid img-stroke"
+                    alt="Titleist Golf Balls"
+                  />
+                  <div class="price">$100</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-4">
+            <div class="card text-white bg-dark border-secondary h-100">
+              <div class="row g-0 h-100">
+                <div class="col-12 col-md-8 d-flex">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">ZeroG Driver</h5>
+                    <p class="card-text small">
+                      This driver will have you hitting fairways with 100% of
+                      your shots! It also features advanced aerodynamics for
+                      maximum distance.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-sm col-md-6 mt-auto"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 product-media">
+                  <img
+                    src="images/driver.png"
+                    class="img-fluid img-stroke"
+                    alt="ZeroG Driver"
+                  />
+                  <div class="price">$940</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="card text-white bg-dark border-secondary h-100">
+              <div class="row g-0 h-100">
+                <div class="col-12 col-md-8 d-flex">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Golf Cart</h5>
+                    <p class="card-text small">
+                      3 wheels for maximum stability on the course. You will
+                      love the smooth ride that this cart provides.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-sm col-md-6 mt-auto"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 product-media">
+                  <img
+                    src="images/golfcart.png"
+                    class="img-fluid img-stroke"
+                    alt="Golf Cart"
+                  />
+                  <div class="price">$1,200</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row align-items-stretch mb-4">
+          <!-- Card 4 -->
+          <div class="col-md-4">
+            <div class="card text-white bg-dark border-secondary h-100">
+              <div class="row g-0 h-100">
+                <div class="col-12 col-md-8 d-flex">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Golf Bag</h5>
+                    <p class="card-text small">
+                      Designed for maximum storage and organization, this golf
+                      bag will keep all your gear secure and easily accessible.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-sm col-md-6 mt-auto"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 product-media">
+                  <img
+                    src="images/golfbag.png"
+                    class="img-fluid img-stroke"
+                    alt="Golf Bag"
+                  />
+                  <div class="price">$500</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col-md-4">
+            <div class="card text-white bg-dark border-secondary h-100">
+              <div class="row g-0 h-100">
+                <div class="col-12 col-md-8 d-flex">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Premium Leather Glove</h5>
+                    <p class="card-text small">
+                      This glove is designed for maximum comfort and grip,
+                      ensuring you have the best performance on the course.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-sm col-md-6 mt-auto"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 product-media">
+                  <img
+                    src="images/glove.png"
+                    class="img-fluid img-stroke"
+                    alt="Premium Leather Glove"
+                  />
+                  <div class="price">$40</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="col-md-4">
+            <div class="card text-white bg-dark border-secondary h-100">
+              <div class="row g-0 h-100">
+                <div class="col-12 col-md-8 d-flex">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Golf Wear</h5>
+                    <p class="card-text small">
+                      Stay comfortable and stylish on the course with our
+                      premium golf wear.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-sm col-md-6 mt-auto"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 product-media">
+                  <img
+                    src="images/golfwear.png"
+                    class="img-fluid img-stroke"
+                    alt="Golf Wear"
+                  />
+                  <div class="price">$150</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="row align-items-stretch mb-4">
+          <!-- Card 7 -->
+          <div class="col-md-4">
+            <div class="card text-white bg-dark border-secondary h-100">
+              <div class="row g-0 h-100">
+                <div class="col-12 col-md-8 d-flex">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Kids Irons</h5>
+                    <p class="card-text small">
+                      Perfectly sized for young golfers, these irons offer great
+                      performance and control.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-sm col-md-6 mt-auto"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 product-media">
+                  <img
+                    src="images/kidsiron.png"
+                    class="img-fluid img-stroke"
+                    alt="Kids Irons"
+                  />
+                  <div class="price">$120</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 8 -->
+          <div class="col-md-4">
+            <div class="card text-white bg-dark border-secondary h-100">
+              <div class="row g-0 h-100">
+                <div class="col-12 col-md-8 d-flex">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">MaxFli Irons</h5>
+                    <p class="card-text small">
+                      These irons are designed for maximum performance and
+                      control, ensuring you have the best experience on the
+                      course.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-sm col-md-6 mt-auto"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 product-media">
+                  <img
+                    src="images/irons.png"
+                    class="img-fluid img-stroke"
+                    alt="MaxFli Irons"
+                  />
+                  <div class="price">$240</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 9 -->
+          <div class="col-md-4">
+            <div class="card text-white bg-dark border-secondary h-100">
+              <div class="row g-0 h-100">
+                <div class="col-12 col-md-8 d-flex">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Premium Polo</h5>
+                    <p class="card-text small">
+                      Stay stylish on the course with our premium polo shirts,
+                      designed for comfort and performance.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-sm col-md-6 mt-auto"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 product-media">
+                  <img
+                    src="images/polo.png"
+                    class="img-fluid img-stroke"
+                    alt="Premium Polo"
+                  />
+                  <div class="price">$80</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 4 (full width product) -->
+        <div class="row align-items-stretch mb-4">
+          <div class="col-md-12">
+            <div class="card text-white bg-dark border-secondary h-100">
+              <div class="row g-0 h-100">
+                <div class="col-12 col-md-8 d-flex">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Beginner Golf Set</h5>
+                    <p class="card-text small">
+                      This set is perfect for golfers who are just starting out,
+                      offering everything they need to get on the course.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-sm col-md-6 mt-auto"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 product-media">
+                  <img
+                    src="images/starterset.png"
+                    class="img-fluid img-stroke"
+                    alt="Beginner Golf Set"
+                  />
+                  <div class="price">$1,800</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark text-light mt-5">
+      <div class="container py-5">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-4">
+            <img class="footer-brand" src="images/logo.png" alt="GolfWorld" />
+            <p class="text-secondary small mb-3">
+              Questions about products or orders? Send us a message and we'll
+              get back to you.
+            </p>
+            <ul class="list-inline mb-3">
+              <li class="list-inline-item">
+                <a href="#" class="text-secondary text-decoration-none"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li class="list-inline-item">•</li>
+              <li class="list-inline-item">
+                <a href="#" class="text-secondary text-decoration-none"
+                  >Terms of Service</a
+                >
+              </li>
+            </ul>
+            <p class="text-secondary small mb-0">&copy; 2025 GolfWorld</p>
+          </div>
+
+          <!-- Contact form -->
+          <div class="col-lg-8" id="contact">
+            <form class="row g-3" action="#" method="post" novalidate>
+              <div class="col-md-6">
+                <label for="name" class="form-label"
+                  >Name<span class="text-danger">*</span></label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Jane Doe"
+                />
+                <div class="invalid-feedback">Please enter your name.</div>
+              </div>
+              <div class="col-md-6">
+                <label for="email" class="form-label"
+                  >Email<span class="text-danger">*</span></label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="jane@example.com"
+                />
+                <div class="invalid-feedback">
+                  Please enter a valid email address.
+                </div>
+              </div>
+              <div class="col-12">
+                <label for="subject" class="form-label">Subject</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  name="subject"
+                  placeholder="Order question"
+                />
+              </div>
+              <div class="col-12">
+                <label for="message" class="form-label"
+                  >Message<span class="text-danger">*</span></label
+                >
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                  placeholder="How can we help?"
+                ></textarea>
+                <div class="invalid-feedback">Please enter a message.</div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
